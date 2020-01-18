@@ -1,0 +1,11 @@
+{
+    "name": "jmasci/utils",
+    "description": "Small library with basic PHP utilities",
+    "authors": [
+        {
+            "name": "Joel Home",
+            "email": "masci.joel@gmail.com"
+        }
+    ],
+    "require": {}
+}

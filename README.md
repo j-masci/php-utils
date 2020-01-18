@@ -1,0 +1,1 @@
+Small library with basic PHP utilities
