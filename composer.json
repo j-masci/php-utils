@@ -10,10 +10,7 @@
     "autoload": {
         "psr-4": {
             "JMasci\\": "src/"
-        },
-        "files": [
-            "src/utils.php"
-        ]
+        }
     },
     "require": {}
 }
