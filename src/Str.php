@@ -2,6 +2,10 @@
 
 namespace JMasci;
 
+/**
+ * Class Str
+ * @package JMasci
+ */
 Class Str{
 
     /**
@@ -111,6 +115,18 @@ Class Str{
         $str = preg_replace( "/[-]{1,}/", "-", $str );
 
         return $str;
+    }
+
+    /**
+     * Safely JSON encode anything into an HTML attribute (array, object, html, etc.)
+     *
+     * In JS, use $.parseJSON or JSON.parse()
+     *
+     * @param $thing
+     * @return string
+     */
+    public static function json_encode_for_html_attr( $thing ) {
+        return htmlspecialchars( \json_encode( $thing ), ENT_QUOTES, 'UTF-8' );
     }
 
     /**

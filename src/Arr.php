@@ -2,6 +2,10 @@
 
 namespace JMasci;
 
+/**
+ * Class Arr
+ * @package JMasci
+ */
 Class Arr{
 
     /**
