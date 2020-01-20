@@ -22,15 +22,15 @@ Class Arr{
      * Turns something into an array without being too strict.
      *
      * @param $thing
-     * @param $even_singular
+     * @param $even_scalar
      * @return array
      */
-    public static function make( $thing, $even_singular = false ){
+    public static function make( $thing, $even_scalar = false ){
         if ( is_object( $thing ) ) {
             return (array) $thing;
         } else if ( is_array( $thing ) ) {
             return $thing;
-        } else if ( $even_singular && Types::is_singular( $thing ) ) {
+        } else if ( $even_scalar && is_scalar( $thing ) ) {
             return [ $thing ];
         } else{
             return [];
