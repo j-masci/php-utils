@@ -1,6 +1,6 @@
 {
-    "name": "jmasci/utils",
-    "description": "Small library with basic PHP utilities",
+    "name": "jmasci/php-utils",
+    "description": "generic PHP utilities/helpers",
     "authors": [
         {
             "name": "Joel Home",
